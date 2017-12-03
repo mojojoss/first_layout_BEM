@@ -1,0 +1,66 @@
+.part-table{
+	display: table;
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
+}
+.part-name{
+	font-size: 45.3px;
+	vertical-align: middle;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	
+	width: 100px;
+}
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.line{
+	width: 400px;
+	height: 5px;
+	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
+	
+}
+.sprite {
+    
+    background-repeat: no-repeat;
+    display: block;
+	margin-right: 12px;
+}
+.sprite-EDUCATION-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -5px -5px;
+	margin-right: 20px;
+	margin-top: 3px;
+	
+}
+.education-list li {
+	padding-left: 18px;
+	margin-bottom: 11px;
+	margin-top: 0px;
+}
+.education-list {
+	margin-top: 28px ;
+}
+.master-degree{
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	margin-right: 8px;
+	line-height: 38px;
+}
+.education-paragraph {
+	margin:0;
+	margin-top: 7px;
+}
+.big-words{
+	font-size: 28.57px;
+	margin: 0;
+}
+.big-words strong {
+	margin-right: 7px;
+}

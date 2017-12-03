@@ -1,0 +1,48 @@
+.part-table{
+	display: table;
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
+}
+.part-name{
+	font-size: 45.3px;
+	vertical-align: middle;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	
+	width: 100px;
+}
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.sprite {
+    
+    background-repeat: no-repeat;
+    display: block;
+	margin-right: 12px;
+}
+.sprite-PROFILE-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -5px -97px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+.line{
+	width: 400px;
+	height: 5px;
+	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
+	
+}
+.big-words{
+	font-size: 28.57px;
+	margin: 0;
+}
+.big-words strong {
+	margin-right: 7px;
+}

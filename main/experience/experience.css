@@ -1,0 +1,56 @@
+.part-table{
+	display: table;
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
+}
+.part-name{
+	font-size: 45.3px;
+	vertical-align: middle;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	
+	width: 100px;
+}
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.line{
+	width: 400px;
+	height: 5px;
+	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
+	
+}
+.sprite {
+    
+    background-repeat: no-repeat;
+    display: block;
+	margin-right: 12px;
+}
+.sprite-EXPERIENCE-ICON {
+    width: 84px;
+    height: 82px;
+    background-position: -97px -5px;
+	margin-right: 18px;
+}
+.experience-list li {
+	padding-left: 17px;
+	
+}
+.experience-list p {
+	margin-top: 5px;
+}
+.experience-list {
+	margin-top: 48px
+}
+.big-words{
+	font-size: 28.57px;
+	margin: 0;
+}
+.big-words strong {
+	margin-right: 7px;
+}

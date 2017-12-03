@@ -1,0 +1,66 @@
+.software {
+	margin-top: 60px;
+}
+
+.software-block {
+	margin-top: 28px;
+	margin-left: 6px;
+}
+
+
+
+.software-word-pad {
+	margin: 0;
+	margin-top: 14px;
+	margin-bottom: 0px;
+}
+.sprite-SOFTWARE-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -191px -94px;
+	margin-right: 20px;
+}
+.part-table{
+	display: table;
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
+}
+.part-name{
+	font-size: 45.3px;
+	vertical-align: middle;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	
+	width: 100px;
+}
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.line{
+	width: 400px;
+	height: 5px;
+	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
+	
+}
+.sprite {
+    
+    background-repeat: no-repeat;
+    display: block;
+	margin-right: 12px;
+}
+.big-words{
+	font-size: 28.57px;
+	margin: 0;
+}
+.fl-left:nth-child(even){
+	margin-left: 80px;
+}
+.fl-left{
+	float: left;
+	padding-bottom: 16px;
+}

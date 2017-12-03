@@ -1,0 +1,48 @@
+.part-table{
+	display: table;
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
+}
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.sprite {
+    
+    background-repeat: no-repeat;
+    display: block;
+	margin-right: 12px;
+}
+.sprite-Phone-Icon {
+    width: 79px;
+    height: 79px;
+    background-position: -97px -97px;
+	margin-top: 3px;
+}
+.part-name{
+	font-size: 45.3px;
+	vertical-align: middle;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+	
+	width: 100px;
+}
+.line{
+	width: 400px;
+	height: 5px;
+	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
+	
+}
+.contacts_table_tr_first-child{
+	font-size: 22.6px;
+	color:rgb(61, 108, 176);
+	font-weight: bold;
+}
+.contacts_table_tr_last-child{
+	font-size: 22.6px;
+	padding-left: 45px;
+}
