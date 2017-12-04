@@ -1,5 +1,10 @@
-.skills {
+#skills{
+	padding-left: 66px;
+	padding-top: 35px;
 	text-align: center;
+}
+.skill-bar .sprite2{
+	margin-right: 11px;
 }
 .part-table{
 	display: table;

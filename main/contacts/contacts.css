@@ -1,3 +1,18 @@
+#contacts{
+	padding-top: 35px;
+	padding-left: 65px;
+}
+.contact-table{
+	padding-top: 0;
+	border-spacing: 0px 0px;
+	margin-top: 19px
+}
+.contact-table_tr {
+	height: 43px;
+}
+.contact-table_td {
+	height: 58px;
+}
 .part-table{
 	display: table;
 	margin-top: 0px;

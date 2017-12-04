@@ -46,3 +46,12 @@
 .big-words strong {
 	margin-right: 7px;
 }
+.profile-paragraph {
+	margin-top: 13px;
+	margin-left: 3px;
+	line-height: 123%;
+}
+#profile{
+	padding-top: 73px;
+	padding-left: 65px;
+}

@@ -1,14 +1,11 @@
-.software {
+#software {
 	margin-top: 60px;
+	padding-left: 84px;
 }
-
 .software-block {
 	margin-top: 28px;
 	margin-left: 6px;
 }
-
-
-
 .software-word-pad {
 	margin: 0;
 	margin-top: 14px;
