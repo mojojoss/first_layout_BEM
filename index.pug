@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Layout
+    link(href='./build/styles.css', rel='stylesheet')
+  body
+    .left-column(style='width: 524px; float: left; margin-right: 20px;')
+      include main/logo-main/logo-main
+      include main/profile/profile
+      include main/contacts/contacts
+      include main/skills/skills
+    .right-column(style='float: left; min-width: 543px ; max-width: 778px ;')
+      include main/education/education
+      include main/experience/experience
+      include main/software/software
+      
+      
+      
+    script(src='build/app.bundle.js')

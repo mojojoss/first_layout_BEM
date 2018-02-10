@@ -1,0 +1,11 @@
+.sprite2 {
+    background-image: url("./spritesheet2.png");
+}
+
+.sprite {
+    background-image: url(./spritesheet.png);
+}
+
+ul {
+    list-style-image: url(./dot.png);
+}

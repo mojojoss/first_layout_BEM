@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     context: path.resolve(__dirname, './main'),
@@ -17,6 +18,14 @@ module.exports = {
     },
     module: {
         rules: [
+            {
+				test: /\.html$/,
+				use: [
+					{
+						loader: 'html-loader'
+					}
+				]
+			},
             {
                 test: /\.js$/,
                 exclude: [/node_modules/],
@@ -46,11 +55,19 @@ module.exports = {
                 }
                     }
                 ]
-			}
+			},
+            {
+				test: /\.pug$/,
+				use:['html-loader', 'pug-html-loader?{"pretty":true,"exports":false}'],
+			},
             
         ]
     },
     plugins: [
-        new ExtractTextPlugin('styles.css')
+        new ExtractTextPlugin('styles.css'),
+        new HtmlWebpackPlugin({
+            filename:'../index.html',
+			template:'../index.pug'
+		}),
     ]
 };
