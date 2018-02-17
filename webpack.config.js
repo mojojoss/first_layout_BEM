@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, './build'),
-        filename: '[name].bundle.js',
+        filename: './build/[name].bundle.js',
         publicPath: ''
     },
     devServer: {
@@ -64,7 +64,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('styles.css'),
+        new ExtractTextPlugin('./build/styles.css'),
         new HtmlWebpackPlugin({
             filename:'../index.html',
 			template:'../index.pug'
