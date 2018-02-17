@@ -1,20 +1,21 @@
-#contacts
-  .part-table
-    .cell
-      i.sprite.sprite-Phone-Icon(style='background-image: url(img/spritesheet.png);')
-    .part-name.cell CONTACT
-    .cell
-      .line
-  table.contact-table
-    tr.contact-table_tr
-      td.contact-table_td.contacts_table_tr_first-child ADDRESS
-      td.contact-table_td.contacts_table_tr_last-child Main Street, City.
-    tr.contact-table_tr
-      td.contact-table_td.contacts_table_tr_first-child E-MAIL
-      td.contact-table_td.contacts_table_tr_last-child contact@domain.com
-    tr.contact-table_tr
-      td.contact-table_td.contacts_table_tr_first-child PHONE
-      td.contact-table_td.contacts_table_tr_last-child 555-555-555
-    tr.contact-table_tr
-      td.contact-table_td.contacts_table_tr_first-child WEBSITE
-      td.contact-table_td.contacts_table_tr_last-child www.yourweb.com
+mixin contact(address, email, phone, website)
+    #contacts
+      .part-table
+        .cell
+          i.sprite.sprite-Phone-Icon(style='background-image: url(img/spritesheet.png);')
+        .part-name.cell CONTACT
+        .cell
+          .line
+      table.contact-table
+        tr.contact-table_tr
+          td.contact-table_td.contacts_table_tr_first-child ADDRESS
+          td.contact-table_td.contacts_table_tr_last-child #{address}
+        tr.contact-table_tr
+          td.contact-table_td.contacts_table_tr_first-child E-MAIL
+          td.contact-table_td.contacts_table_tr_last-child #{email}
+        tr.contact-table_tr
+          td.contact-table_td.contacts_table_tr_first-child PHONE
+          td.contact-table_td.contacts_table_tr_last-child #{phone}
+        tr.contact-table_tr
+          td.contact-table_td.contacts_table_tr_first-child WEBSITE
+          td.contact-table_td.contacts_table_tr_last-child #{website}

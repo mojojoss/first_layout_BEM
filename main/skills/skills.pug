@@ -1,67 +1,46 @@
-#skills
-  .part-table.skill-padd
-    .cell
-      i.sprite.sprite-SKILLS-ICON
-    .part-name.cell SKILLS
-    .cell
-      .line
-  span.big-words.skills-padding CREATIVE
-  br
-  .skill-bar
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-  span.big-words.skills-padding TEAMWORK
-  br
-  .skill-bar
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-gray
-  span.big-words.skills-padding INNOVATE
-  br
-  .skill-bar
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-    i.sprite2.sprite-Elipse-gray
-  span.big-words.skills-padding COMMUNICATION
-  br
-  .skill-bar
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-blue
-    i.sprite2.sprite-Elipse-gray
+mixin skill(creative, teamwork, innovate, communication)
+    #skills
+      .part-table.skill-padd
+        .cell
+          i.sprite.sprite-SKILLS-ICON
+        .part-name.cell SKILLS
+        .cell
+          .line
+      span.big-words.skills-padding CREATIVE
+      br
+      .skill-bar
+        - for (var n=0; n<creative; n++) {
+            i.sprite2.sprite-Elipse-blue
+        - }
+        - for (var n=0; n<12-creative; n++){
+            i.sprite2.sprite-Elipse-gray
+        - }
+
+
+      span.big-words.skills-padding TEAMWORK
+      br
+      .skill-bar
+        - for (var n=0; n<teamwork; n++) {
+            i.sprite2.sprite-Elipse-blue
+        - }
+        - for (var n=0; n<12-teamwork; n++){
+            i.sprite2.sprite-Elipse-gray
+        - }
+      span.big-words.skills-padding INNOVATE
+      br
+      .skill-bar
+        - for (var n=0; n<innovate; n++) {
+            i.sprite2.sprite-Elipse-blue
+        - }
+        - for (var n=0; n<12-innovate; n++){
+            i.sprite2.sprite-Elipse-gray
+        - }
+      span.big-words.skills-padding COMMUNICATION
+      br
+      .skill-bar
+        - for (var n=0; n<communication; n++) {
+            i.sprite2.sprite-Elipse-blue
+        - }
+        - for (var n=0; n<12-communication; n++){
+            i.sprite2.sprite-Elipse-gray
+        - }
